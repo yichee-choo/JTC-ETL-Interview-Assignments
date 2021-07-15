@@ -1,10 +1,13 @@
 Instructions
+
 Candidates can choose 1 set of tools from the following to implement the task. Candidates can then choose to use a combination or only a single tool from that set.
 Set A. Apache Kafka, Nifi, HDFS, Hive
 Set B. Talend (Open Source), MongoDB
 For verification purpose, we need the candidate to document the implemented steps in your github repository for us to set up the same environment as yours that will achive the same result as below.
 
+
 Task
+
 Implement a data flow orchestration to process raw data to generate pipe-delimited load files in the path (/dataextract/yy/MM/dd/factstore).
 Then, load the processed data model into a nosql database (name it factstore) for querying the results to achieve the expected results (see sample DDL-DML.sql to create corresponding data structure in nosql database).
 
